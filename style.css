@@ -1,0 +1,260 @@
+.visually-hidden {
+    display: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 112, 160, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+body {
+    width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    min-height: 75px;
+    padding: 0 155px 0 155px;
+    display: flex;
+}
+
+.product-logo {
+    margin-right: 36px;
+}
+
+.logo-image {
+    position: relative;
+    top: 19px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    gap: 445px;
+}
+
+.navigation-list, .user-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-list {
+    gap: 24px;
+}
+
+.navigation-link, .user-link {
+   text-decoration: none; 
+   color: rgba(51, 56, 63, 1);
+}
+
+.user-list {
+    gap: 31px;
+    align-items: center;
+}
+
+.button-header {
+    width: 139px;
+    height: 36px;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 452px;
+    padding: 80px 155px;
+
+}
+
+.introduction-button {
+    width: 174px;
+    height: 43px;
+}
+
+.introduction-picture {
+    grid-column: 2/-1;
+    grid-row: 1 / 4;
+}
+
+.introduction-title {
+    font-size: 58px;
+    line-height: 64px;
+    margin: 0;
+}
+
+.introduction-subtitle {
+    grid-column: 1/2;
+}
+
+.introduction-button {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.introduction-more {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    min-width: 110px;
+    height: 43px;
+}
+
+.clients-subtitle {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.clients-list {
+    list-style-type: none;
+    padding: 0 105px;
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    gap: 60px;
+}
+
+.advantages {
+    padding-left: 155px;
+    padding-right: 155px;
+}
+
+.advantages-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.advantages-item {
+    width: 355px;
+    min-height: 250px;
+}
+
+.advantages-fast {
+    background-color: rgba(250, 234, 115, 1);
+}
+
+.advantages-item h3::before {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+
+.advantages-fast h3::before {
+    background: url('./images/light.svg') center no-repeat;
+}
+
+.advantages-more {
+    background-color: rgba(204, 239, 246, 1);
+}
+
+.advantages-more h3::before {
+    background: url('./images/money.svg') center no-repeat;
+}
+
+.advantages-secure {
+    background-color: rgba(247, 206, 220, 1);
+}
+
+.advantages-secure h3::before {
+    background: url('./images/gesture.svg') center no-repeat;
+}
+
+.features {
+    width: 1230px;
+    min-height: 534px;
+    padding: 80px 105px;
+    background-color: rgba(247, 249, 250, 1);
+    display: grid;
+    grid-template-columns: 486px auto;
+    grid-template-rows: 100px auto;
+}
+
+.about {
+    width: 1130px;
+    min-height: 218px;
+    padding: 120px 155px;
+    display: flex;
+}
+
+.about-list {
+    display: flex;
+}
+
+.promotion {
+    width: 1130px;
+    height: 390px;
+    padding: 80px 155px;
+    background-color: rgba(0, 112, 160, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+
+.promotion-picture {
+    grid-row: 1/-1;
+}
+
+.promotion-description {
+    grid-column: 2 / 3;
+}
+
+.promotion-list {
+    grid-column: 2 / 3;
+}
+
+.tasks {
+    width: 1230px;
+    min-height: 408px;
+    padding: 120px 105px;
+}
+
+.tasks-list {
+    display: flex;
+}
+
+.posts {
+    width: 1230px;
+    min-height: 587px;
+    padding: 80px 105px;
+    background-color: rgba(247, 249, 250, 1);
+}
+
+.posts-list {
+    display: flex;
+}
+
+.starting {
+    width: 1130px;
+    min-height: 370px;
+    margin: 80px 155px;
+    background-color: rgba(230, 247, 255, 1);
+}
+
+.footer {
+    width: 1230px;
+    min-height: 352px;
+    padding: 48px 105px 32px 105px;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.bottom-footer {
+    display: flex;
+}
+
+.social-list {
+    display: flex;
+}
+    
